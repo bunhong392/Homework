@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homework</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .slidebar {
+        background-color: #eae7e7;
+        width: 200px;
+        padding: 20px;
+        height: auto;
+      }
+      .box1 {
+        flex: 1;
+        padding: 20px;
+        background-color: #fdf7f7;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      nav a {
+        display: block;
+        margin-bottom: 10px;
+        color: darkblue;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      style="
+        margin: 0;
+        padding: 20px;
+        background-color: darkblue;
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+        color: white;
+      "
+    >
+      <h1>Header Area</h1>
+    </header>
+
+    <div style="display: flex">
+      <div class="slidebar">
+        <nav>
+          <a href="">link</a>
+          <a href="../table.html">Learn about Table</a>
+        </nav>
+      </div>
+
+      <div class="box1">
+        <h2>LINK To html, css, css framework and javascript via map area</h2>
+        <h2 style="text-align: center">area map</h2>
+        <center>
+          <img src="../map.png" usemap="#langmap" alt="Map of Sections" />
+        </center>
+        <map name="langmap">
+          <area shape="rect" coords="0,0,256,256" href="#javascript" alt="JS" />
+          <area
+            shape="rect"
+            coords="256,0,512,256"
+            href="#cssf"
+            alt="CSS Framework"
+          />
+          <area shape="rect" coords="0,256,256,512" href="#html" alt="HTML" />
+          <area shape="rect" coords="256,256,512,512" href="#css" alt="CSS" />
+        </map>
+
+        <section id="html">
+          <h2>HTML</h2>
+          <p>
+            Welcome to Learn HTML, the easiest way to learn HTML & CSS. Learn
+            HTML provides an interactive tutorial that explains how to build
+            HTML & CSS websites step by step.
+          </p>
+          <ul>
+            <li>Image</li>
+            <li>Link</li>
+            <li>Table</li>
+            <li>Form</li>
+            <li>ifram</li>
+          </ul>
+          <img width="600" src="../html.png" alt="html" />
+        </section>
+        <section id="css">
+          <h2>CSS</h2>
+          <p>
+            CSS stands for Cascading Style Sheets. It is a stylesheet language
+            used to style and enhance website presentation.
+          </p>
+          <ul>
+            <li>selector</li>
+            <li>Combinators</li>
+            <li>Pseudo-classes</li>
+          </ul>
+          <img width="600" src="../css.png" alt="css" />
+        </section>
+        <section id="cssf">
+          <h2>CSS Framework</h2>
+          <p>
+            CSS Frameworks are the crucial part of modern web development. It
+            contain styles and templates that standardize and streamline the
+            design and development process. With a CSS framework, you don't need
+            to write all the CSS from scratch. By using pre-written CSS and
+            sometimes JavaScript components, these frameworks save time, promote
+            consistency, and simplify the development process.
+          </p>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Material Design</li>
+            <li>Tailwind</li>
+          </ul>
+          <img width="600" src="../cssf.png" alt="cssf" />
+        </section>
+        <section id="javascript">
+          <h2>JavaScript</h2>
+          <p>
+            JavaScript is a programming language used to create dynamic content
+            for websites. It is a lightweight, cross-platform, and
+            single-threaded programming language. JavaScript is an interpreted
+            language that executes code line by line providing more flexibility.
+          </p>
+          <ul>
+            <li>JS introduction</li>
+            <li>JS Varriable</li>
+            <li>JS Function</li>
+            <li>JS Object</li>
+
+          </ul>
+          <img width="600" src="../js.png" alt="JavaScript" />
+        </section>
+      </div>
+    </div>
+    <footer
+      style="
+        margin: 0;
+        padding: 20px;
+        background-color: darkblue;
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+        color: white;
+      "
+    >
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
